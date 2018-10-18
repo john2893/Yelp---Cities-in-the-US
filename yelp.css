@@ -1,0 +1,7 @@
+td,th,table {
+    border:1px solid black;
+  }
+  td {
+    text-transform:uppercase;
+    text-align:center;
+}

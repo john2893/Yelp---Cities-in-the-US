@@ -20,7 +20,7 @@ $(document).ready(function(){
         $('#myTable tbody > tr').remove();
         // $("#city").val('');
         place.cityName = $("#city").val();
-        alert(place.cityName);
+        // alert(place.cityName);
         var url = `https://rebecca-proxy.herokuapp.com/search?location=`+place.cityName;
         // alert(url);
         $.ajax({
